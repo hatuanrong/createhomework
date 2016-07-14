@@ -23,7 +23,6 @@ function($scope, $state, $stateParams,$http){
       console.log("send request");
     })
     $scope.fetchData();
-    $state.reload();
   }
 
   $scope.update = function(girl, index) {
